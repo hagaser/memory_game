@@ -2,14 +2,10 @@
 
 button {
 
-  /* position */
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); /* centers the element */
-
   /* block model */
-  display: inline-block;
-  padding: 6% 17% 6% 17%;
+  display: flex;
+  justify-self: center;
+  padding: 6% 17%;
 
   /* decoration */
   background-color: #ffffff;
@@ -18,6 +14,7 @@ button {
 
   /* other */
   cursor: pointer;
+  
 }
 
 ul {
@@ -27,7 +24,8 @@ ul {
   padding: 0;
   
   /* decoration */
-  list-style-type:none; /* remove dots */
+  list-style-type: none;
+
 }
 
 li {
@@ -38,6 +36,7 @@ li {
 
   /* other */
   cursor:pointer;
+  
 }
 
 img {
@@ -49,17 +48,16 @@ img {
 
   /* animation */
   transition: width 0.3s;
+
 }
 
 a {
-
-  /* block model */
-  display: block; /* to make the link stretch over the entire block */
 
   /* decoration */
   text-decoration: none;
   text-align: center;
   color: #000000;
+  
 }
 
 h1 {
@@ -83,6 +81,7 @@ h1 {
   /* decoration */
   box-shadow: 0px 2px 20px 1px #999999;
   border-radius: 10px;
+  
 }
 
 .img-div {
@@ -110,7 +109,7 @@ h1 {
 
 /* ids */
 
-#win {
+.win {
   display: none;
 }
 
